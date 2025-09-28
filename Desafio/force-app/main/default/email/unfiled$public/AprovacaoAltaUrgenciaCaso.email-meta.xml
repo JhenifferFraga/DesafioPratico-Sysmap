@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email para aprovação de casos de alta urgência</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AprovacaoAltaUrgenciaCaso</name>
+    <style>none</style>
+    <subject>⚠️ URGENTE - Caso {!Case.CaseNumber} Precisa de Aprovação</subject>
+    <textOnly>Prezado(a) Gerente,
+
+Um caso classificado como de alta urgência aguarda sua aprovação antes do encerramento
+
+DETALHES DO CASO:
+Número: {!Case.CaseNumber}
+Motivo: {!Case.MotivoDoCaso__c}
+Urgência: {!Case.Urgencia__c}
+Criado por: {!Case.CreatedBy}
+Data Limite: {!Case.DataLimiteResolucao__c}
+
+ AÇÃO REQUERIDA
+Este caso não pode ser fechado sem sua aprovação.
+
+Para aprovar ou rejeitar, acesse:
+{!Case.Link}
+
+---
+Sistema Automático - Não responda este email
+Salesforce Approval Process</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

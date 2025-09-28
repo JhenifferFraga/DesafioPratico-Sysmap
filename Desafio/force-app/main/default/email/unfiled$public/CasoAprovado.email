@@ -1,0 +1,12 @@
+<p>Olá, Sr(a). <strong>{!Case.OwnerFirstName}</strong></p>
+
+        <p>
+          O caso <b>{!Case.CaseNumber}</b> com o motivo
+          <b>{!Case.MotivoDoCaso__c}</b> foi aprovado.
+        </p>
+        <p>Status atual: <b>{!Case.Status}</b><br/>
+        </p>
+
+    <div style="background: #6c757d; color: white; padding: 10px; text-align: center; font-size: 12px;">
+        <p>Sistema automático - não responda a este e-mail.</p>
+    </div>

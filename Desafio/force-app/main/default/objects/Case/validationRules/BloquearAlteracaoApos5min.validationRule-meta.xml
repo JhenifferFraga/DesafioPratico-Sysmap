@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BloquearAlteracaoApos5min</fullName>
+    <active>true</active>
+    <description>Impede alteração de urgência após 5 minutos, exceto usuários com permissão especial</description>
+    <errorConditionFormula>AND(
+  ISCHANGED(Urgencia__c),
+  (NOW() - CreatedDate) &gt; (5/1440),
+  NOT($Permission.AlterarUrgencia)
+)</errorConditionFormula>
+    <errorDisplayField>Urgencia__c</errorDisplayField>
+    <errorMessage>Não é possível alterar a urgência após 5 minutos da criação do caso. Entre em contato com seu gerente.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SuporteAdministrativo</fullName>
+    <active>true</active>
+    <businessProcess>Desafio</businessProcess>
+    <compactLayoutAssignment>GerenciarCaso</compactLayoutAssignment>
+    <description>Para casos administrativos e de processos</description>
+    <label>Suporte Administrativo</label>
+    <picklistValues>
+        <picklist>MotivoDoCaso__c</picklist>
+        <values>
+            <fullName>Alteração de Cadastro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvida sobre Benefícios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fraude Suspeita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema Jurídico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema com Pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação de Documento</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Complexity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Urgencia__c</picklist>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baixa</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Média</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

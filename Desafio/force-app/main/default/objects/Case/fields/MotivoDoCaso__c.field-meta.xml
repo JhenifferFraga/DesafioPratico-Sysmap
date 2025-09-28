@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MotivoDoCaso__c</fullName>
+    <label>Motivo do Caso</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Urgencia__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Solicitação de Acesso</fullName>
+                <default>false</default>
+                <label>Solicitação de Acesso</label>
+            </value>
+            <value>
+                <fullName>Problema de Rede</fullName>
+                <default>false</default>
+                <label>Problema de Rede</label>
+            </value>
+            <value>
+                <fullName>Erro no Sistema</fullName>
+                <default>false</default>
+                <label>Erro no Sistema</label>
+            </value>
+            <value>
+                <fullName>Lentidão</fullName>
+                <default>false</default>
+                <label>Lentidão</label>
+            </value>
+            <value>
+                <fullName>Falha Crítica</fullName>
+                <default>false</default>
+                <label>Falha Crítica</label>
+            </value>
+            <value>
+                <fullName>Sistema Indisponível</fullName>
+                <default>false</default>
+                <label>Sistema Indisponível</label>
+            </value>
+            <value>
+                <fullName>Dúvida sobre Benefícios</fullName>
+                <default>false</default>
+                <label>Dúvida sobre Benefícios</label>
+            </value>
+            <value>
+                <fullName>Solicitação de Documento</fullName>
+                <default>false</default>
+                <label>Solicitação de Documento</label>
+            </value>
+            <value>
+                <fullName>Problema com Pagamento</fullName>
+                <default>false</default>
+                <label>Problema com Pagamento</label>
+            </value>
+            <value>
+                <fullName>Alteração de Cadastro</fullName>
+                <default>false</default>
+                <label>Alteração de Cadastro</label>
+            </value>
+            <value>
+                <fullName>Fraude Suspeita</fullName>
+                <default>false</default>
+                <label>Fraude Suspeita</label>
+            </value>
+            <value>
+                <fullName>Problema Jurídico</fullName>
+                <default>false</default>
+                <label>Problema Jurídico</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Baixa</controllingFieldValue>
+            <valueName>Solicitação de Acesso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baixa</controllingFieldValue>
+            <valueName>Problema de Rede</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baixa</controllingFieldValue>
+            <valueName>Dúvida sobre Benefícios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baixa</controllingFieldValue>
+            <valueName>Solicitação de Documento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Média</controllingFieldValue>
+            <valueName>Erro no Sistema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Média</controllingFieldValue>
+            <valueName>Lentidão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Média</controllingFieldValue>
+            <valueName>Problema com Pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Média</controllingFieldValue>
+            <valueName>Alteração de Cadastro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alta</controllingFieldValue>
+            <valueName>Falha Crítica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alta</controllingFieldValue>
+            <valueName>Sistema Indisponível</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alta</controllingFieldValue>
+            <valueName>Fraude Suspeita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alta</controllingFieldValue>
+            <valueName>Problema Jurídico</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

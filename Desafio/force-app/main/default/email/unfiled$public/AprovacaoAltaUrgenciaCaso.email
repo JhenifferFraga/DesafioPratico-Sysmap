@@ -1,0 +1,26 @@
+<div style="font-family: Arial, sans-serif; max-width: 600px;">
+    <div style="background: #f8f9fa; padding: 20px; border: 1px solid #dee2e6;">
+        <p><strong>Prezado(a) Gerente,</strong></p>
+        <p>Um caso classificado como de alta urgência aguarda sua aprovação antes do encerramento.</p>
+
+        <div style="background: white; padding: 15px; margin: 10px 0; border-left: 4px solid #d73527;">
+            <h4 style="margin-top: 0;">DETALHES DO CASO</h4>
+            <p><strong>Número:</strong> {!Case.CaseNumber}</p>
+            <p><strong>Motivo:</strong> {!Case.MotivoDoCaso__c}</p>
+            <p><strong>Urgência:</strong> {!Case.Urgencia__c}</p>
+            <p><strong>Solicitante:</strong> {!Case.CreatedBy}</p>
+            <p><strong>Data Limite:</strong> {!Case.DataLimiteResolucao__c}</p>
+        </div>
+
+        <div></div>
+        <h4 style="margin-top: 0;">AÇÃO REQUERIDA</h4>
+        <p>Este caso não pode ser encerrado sem sua decisão. Acesse o link abaixo para aprovar ou rejeitar:</p>
+        <p><a href="{!Case.Link}" style="color: #007bff; text-decoration: none;">Acessar caso</a></p>
+    </div>
+
+    <div style="background: #6c757d; color: white; padding: 10px; text-align: center; font-size: 12px;">
+        <p>Sistema automático - não responda a este e-mail.</p>
+        <p>Processo de Aprovação Salesforce</p>
+    </div>
+</div>
+</div>

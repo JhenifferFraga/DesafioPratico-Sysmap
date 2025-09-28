@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email avisando aprovação do caso</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Caso Aprovado</name>
+    <style>none</style>
+    <subject>⚠️ ATENÇÃO - Seu caso {!Case.CaseNumber} foi Aprovado!✅</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
